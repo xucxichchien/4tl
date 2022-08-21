@@ -11,7 +11,7 @@ define('SITEURL', 'http://localhost/bunbobae/User/');
  $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error());
 
 ?>
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
