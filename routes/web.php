@@ -54,7 +54,7 @@ route::get('/information.blade.php/{id}',[CustomAuthController::class,'informati
 route::post('/saveinformation.blade.php',[CustomAuthController::class,'saveinformation'])->name('save-information');
 Route::get('delete-user/{id}', [CustomAuthController::class,'deleteUser']);
 
-
+//admin
 Route::get('admin-list', [adminController::class,'index']);
 Route::get('add-admin', [adminController::class,'addAdmin']);
 Route::post('save-admin', [adminController::class,'saveAdmin']);
