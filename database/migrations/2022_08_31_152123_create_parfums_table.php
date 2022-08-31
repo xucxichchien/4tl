@@ -18,9 +18,9 @@ return new class extends Migration
             $table->string('prodName');
             $table->float('prodPrice');
             $table->text('prodDes');
-            $table->file('prodImage');
-            $table->int('categoryID');
-            $table->int('brandID');
+            $table->string('prodImage');
+            $table->string('categoryID');
+            $table->string('brandID');
             $table->timestamps();
         });
     }

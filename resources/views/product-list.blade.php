@@ -1,11 +1,11 @@
 <?php
 
 session_start();
-define('SITEURL', 'http://localhost/bunbobae/User/');
+
 
  define('LOCALHOST', 'localhost');
- define('DB_USERNAME', 'web1');
- define('DB_PASSWORD', 'D@nque2003');
+ define('DB_USERNAME', 'root');
+ define('DB_PASSWORD', '');
  define('DB_NAME', 'lara0905a');
  $conn = mysqli_connect(LOCALHOST, DB_USERNAME, DB_PASSWORD) or die(mysqli_error()); //Database connection
  $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error());
@@ -143,7 +143,6 @@ define('SITEURL', 'http://localhost/bunbobae/User/');
                             <th>Price</th>
                             <th>Description</th>
                             <th>Brand</th>
-                            <th>Category</th>
                             <th>Image</th>
                             <th>Action</th>
                         </tr>
